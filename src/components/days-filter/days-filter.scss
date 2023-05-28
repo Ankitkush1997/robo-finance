@@ -1,0 +1,33 @@
+.days-filter-container {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .left-text {
+    span {
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 46px;
+      color: #575353;
+      margin-right: 20px;
+    }
+  }
+  .right-filters {
+    display: flex;
+    gap: 10px;
+    span {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 32px;
+      padding: 13px 20px;
+      background: #f6f6fb;
+      border-radius: 32px;
+      &:first-child {
+        color: white;
+        background: #7166f9;
+        opacity: 0.9;
+        border-radius: 32px;
+      }
+    }
+  }
+}

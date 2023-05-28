@@ -1,0 +1,27 @@
+.progress-container {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  .middle-text {
+    position: absolute;
+    color: #c9bcbc;
+    right: 30%;
+    bottom: 20px;
+    font-size: 13px;
+  }
+
+  .dot {
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 4px;
+    left: 50%;
+    border-radius: 2px;
+  }
+  .one {
+    top: 4.1px;
+  }
+  .two {
+    bottom: 4.1px;
+  }
+}

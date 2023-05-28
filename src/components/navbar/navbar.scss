@@ -1,0 +1,55 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .left-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .team-icon-container {
+      background-color: #f6f6fb;
+      padding: 8px 10px;
+      border-radius: 12px;
+      //   .team-icon {
+      //   }
+    }
+    span {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 23px;
+      color: #000000;
+    }
+    .triangle-container {
+      background-color: #f6f6fb;
+      padding: 1px 8px;
+      border-radius: 5px;
+      img {
+        margin-bottom: 4px;
+      }
+    }
+    .plus-icon-container {
+      margin-left: 10px;
+    }
+  }
+
+  .right-nav {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    .triangle-container {
+      background-color: #f6f6fb;
+      padding: 1px 8px;
+      border-radius: 5px;
+      height: fit-content;
+      img {
+        margin-bottom: 4px;
+      }
+    }
+    span {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 23px;
+      color: #000000;
+    }
+  }
+}

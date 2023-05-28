@@ -1,0 +1,69 @@
+.left-panel-container {
+  width: 279px;
+  height: 90%;
+  background: #f6f6fb;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  .top-logo-text-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding: 22px 0px 0px 36px;
+    .images-container {
+      position: relative;
+      height: 52px;
+      width: 30%;
+      .bg-img {
+        position: absolute;
+      }
+      .blr-img {
+        position: absolute;
+        top: -23px;
+        left: -8px;
+      }
+      .search-icon {
+        position: absolute;
+        top: 14px;
+        left: 14px;
+      }
+    }
+    span {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 23px;
+    }
+  }
+  .middle-options {
+    margin-bottom: 140px;
+    .navigation {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 18px 30px;
+      &:first-child {
+        background: linear-gradient(
+          270.27deg,
+          rgba(113, 102, 249, 0.07) 0%,
+          rgba(113, 102, 249, 0.03) 97.77%
+        );
+      }
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #000000;
+    }
+  }
+  .down-options {
+    .navigation {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 10px 36px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+      color: #000000;
+    }
+  }
+}
